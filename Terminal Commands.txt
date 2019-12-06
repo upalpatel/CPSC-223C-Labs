@@ -1,0 +1,13 @@
+Terminal Commands to run the files:
+To run the file:
+>cc lab4.c -o -g -Wall -Wextra -Wpedantic
+>./a.out
+
+or
+>cc -o lab4run lab4.c -g -Wall -Wextra -Wpedantic
+>./lab4run
+
+Debugger:
+> gcc -o lab4test lab4.c -ggdb
+> gdb lab4test
+(gdb) run
